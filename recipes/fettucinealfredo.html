@@ -1,11 +1,16 @@
 <!doctype html>
 <html lang="en">
   <head>
+
+  
+
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
+    <link href="styles.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <title>Fettuccine Alfredo</title>
@@ -15,17 +20,13 @@
 
     <div class="section" width="100%" id="topSection"> 
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6" id="topSection">
                 <img src="https://www.modernhoney.com/wp-content/uploads/2018/08/Fettuccine-Alfredo-Recipe-1.jpg" width="50%">
                 <h1>Fettuccine Alfredo</h1>
                 <p><b><i>Consider making this special dish for a special someone. They'll love you forever.</i></b></p>
                 <br>
                 <p>
-                    Lorem ipsum dolor sit amet, vim no nisl ancillae recusabo, ad mazim iudico necessitatibus vix, mea detracto indoctum id. Nam in enim torquatos, dicit praesent ius ea. Eum ut everti adipiscing, sit ei audire moderatius. Ex saepe impedit senserit pri. No pro tritani fastidii verterem, ad sit quidam pertinax, vim prima lorem ut.
-
-                    No oblique constituto per. Solum liberavisse vel at, has an modus nostro. Aliquam appetere no mei. Vivendum voluptatibus sit et, ex nisl mutat fabulas quo, te eum aeque omittam consulatu. Justo noluisse sit eu.
-                    
-                    Ex qui nihil suscipiantur reprehendunt. An est labore utroque deterruisset.
+                    Fettuccine alfredo is my favorite food. I love alfredo because it is creamy and decadent. I don’t remember the first time I ever had it, I just know I was young. It was a staple dinner throughout my childhood. My mom would always make it on weekends as a treat. 
                 </p>
 
             </div>
@@ -38,24 +39,80 @@
                     class="col-md-6">
                 </div>
                 <h2>Background on Fettuccine Alfredo</h2>
-                <p> Lorem ipsum dolor sit amet, vim no nisl ancillae recusabo, ad mazim iudico necessitatibus vix, mea detracto indoctum id. Nam in enim torquatos, dicit praesent ius ea. Eum ut everti adipiscing, sit ei audire moderatius. Ex saepe impedit senserit pri. No pro tritani fastidii verterem, ad sit quidam pertinax, vim prima lorem ut.
+                <p> In America, we consider fettuccine alfredo to be Italian food. However, they don’t eat it in Italy, at least not how we eat it in the states. Here, alfredo sauce is made with heavy whipping cream and butter at its base. This makes a thick, creamy sauce. In Italy, it’s a simple 3 ingredient sauce; noodles, butter and parmesan cheese. This sauce is still flavorful, but a lot lighter than American alfredo.
 
-                    No oblique constituto per. Solum liberavisse vel at, has an modus nostro. Aliquam appetere no mei. Vivendum voluptatibus sit et, ex nisl mutat fabulas quo, te eum aeque omittam consulatu. Justo noluisse sit eu.
+                    Authentic Fettuccine Alfredo was created in 1908. Chef Alfredo’s wife had lost her appetite after giving birth. He made fresh pasta and dressed it in butter and parmesan in an attempt to get her to eat. Luckily, she loved it and the rest is history. It is unknown where the American version of alfredo originated from.
                     
-                    Ex qui nihil suscipiantur reprehendunt. An est labore utroque deterruisset.
                 </p>
-                <div class="row"></div>
-                <button>
-                    <a>Make Datalist Later</a>
-                </button>
+                <div class="row">
+                    <label for="pasta">Choose your pasta from the list:</label>
+                    <input list="pasta" name="menu" id="menu">
+                    
+                        <datalist id="pasta">
+                        <option value="Fettucine Alfredo">
+                        <option value="Chicken Parmersean">
+                        <option value="Bolognese">
+                        <option value="Cacio e Pepe">
+                        <option value="Spagetti">
+                        </datalist>
+
                     <button>
                         <a href="">Add to Cart</a>
                     </button>
+                </div>    
+            </div> 
+        </div>
+    </div>
+
+<div class="section" width="100%" id="bottomSection">
+    <div class="row">
+        <div class="col-md-4">
+            <h2 class="bottomSectionH2"> How to Cook </h2>
+            <p><b><i>Follow These Instructions For A Great Dinner That the Entire Family Will Enjoy</i></b></p>
+
+            
+
+            <ol>
+                <li>Fill a pot with water. Add tablespoon of salt, bring to boil.  </li>
+                <li>Add dry fettuccine noodles to water once boiled, follow box instructions. </li>
+                <li>Get a pan, bring to low-medium heat. 
+                </li>
+                <li>Saute vegetables. Remove from the pan and set aside.
+                </li>
+                <li>Add butter, let it melt. Once melted, add chopped garlic.  </li>
+                <li>After 2-3 min, whisk in heavy whipping cream.  </li>
+                <li>Take shredded parmesan and whisk it in, a half cup at a time. 
+                </li>
+                <li>Continue to whisk until all cheese is melted. 
+                </li>
+                <li>Finish sauce with a quarter cup of pasta water.  </li>
+                <li>Add sauteed vegetables into the sauce.
+                </li>
+                <li>Toss al dente fettuccine noodles in the alfredo.  </li>
+                <li>Finish with Italian parsley and freshly cracked pepper.
+                </li>
+            </ol>
+        </div>
+
+        <div class="col-md-4">
+                <h3> Ingredients: </h3>
+                <p> Fettuccine is a very simple dish that takes a few ingredients that you may already have at home. All you need is water, salt, dry fettuccine noodles, butter, heavy whipping cream, parmersean cheese and freshly cracked black pepper and Italian parsley to finish. You can also add vegetables like mushrooms, peppers and diced tomatoes to brighten up the dish.
+                </p>
+                <br>
+                <h3> Suggested Sides: </h3>
+                <p> While Fettucine Alfredo is a great dish on it's own, sides can always make it better. You can enjoy it with fresh baked garlic bread and a Cesar salad.
+                </p>
+        
+                <button>
+                    <a href="">Add To Cart</a>
+                </button>
+                 
+
             </div>
         </div>
     </div>
 
-
+</div>
 
 
 

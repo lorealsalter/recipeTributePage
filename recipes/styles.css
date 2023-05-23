@@ -1,0 +1,25 @@
+body {
+
+
+}
+#bottomSection {
+    background-color: beige;
+    padding: 20px;
+}
+
+h3{
+    text-align: center;
+
+}
+
+.bottomSectionH2 {
+    text-align:center;
+}
+
+img {
+    border-radius: 15px;
+}
+
+#topSection{
+    margin: 20 px;
+}
